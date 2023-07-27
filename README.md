@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.25.175
+IP-адрес 158.160.72.165
 
 Frontend https://ivanfed.nomoredomains.xyz
 
