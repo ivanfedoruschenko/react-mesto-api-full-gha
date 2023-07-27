@@ -1,0 +1,19 @@
+.auth__input {
+  display: block;
+  font-family: inherit;
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding-bottom: 13px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #cccccc;
+  height: 27px;
+  box-sizing: border-box;
+}
+
+.auth__input:nth-child(even) {
+  margin-top: 30px;
+}

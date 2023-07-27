@@ -1,0 +1,7 @@
+.element__name-like {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

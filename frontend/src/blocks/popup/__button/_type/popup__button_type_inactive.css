@@ -1,0 +1,12 @@
+.popup__button_type_inactive {
+  position: relative;
+  display: inline-block;
+}
+
+.popup__button_type_inactive:disabled {
+  background-color: #f1f1f1;
+  border: 1px solid #000000;
+  color: #000000;
+  opacity: 0.2;
+  cursor: none;
+}

@@ -1,0 +1,12 @@
+.profile__two-columns {
+  margin: 0;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .profile__two-columns {
+    justify-content: center;
+    max-width: 282px;
+    align-self: center;
+  }
+}
