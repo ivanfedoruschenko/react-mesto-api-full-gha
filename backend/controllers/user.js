@@ -1,6 +1,4 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 const bcrypt = require('bcryptjs');
-// eslint-disable-next-line import/no-extraneous-dependencies
 const jwt = require('jsonwebtoken');
 const User = require('../models/user');
 const CodeError = require('../errors/error-code');
@@ -45,9 +43,6 @@ module.exports.getUserById = (req, res, next) => {
   User.findById(req.params.userId)
     .orFail(new NotFoundError('Пользователь не найден'))
     .then((user) => {
-      if (!user) {
-        throw new NotFoundError('Пользователь не найден');
-      }
       res.send(user);
     })
     .catch((err) => {

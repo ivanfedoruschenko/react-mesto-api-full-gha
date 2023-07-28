@@ -46,11 +46,7 @@ module.exports.likeCard = (req, res, next) => {
   )
     .orFail(() => new NotFoundError('Карточка не найдена'))
     .then((card) => {
-      if (card) {
-        res.send(card);
-      } else {
-        throw new NotFoundError('Карточка не найдена');
-      }
+      res.send(card);
     })
     .catch((err) => {
       if (err.name === 'CastError') {
